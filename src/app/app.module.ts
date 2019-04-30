@@ -5,13 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './products/product-list.component';
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
+import { StarComponent } from './shared/star.component';
 
 @NgModule({
   // Our directives, components and pipes are declared in the declarations array
   declarations: [
     AppComponent,
     ProductListComponent,
-    ConvertToSpacesPipe
+    ConvertToSpacesPipe,
+    StarComponent
   ],
   // Directives, components and pipes used from other sources such as Angular or
   // third parties are delcared in the imports array
